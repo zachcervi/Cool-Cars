@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,166 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="23" id="QIy-LJ-nwN">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="207"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Challenger" translatesAutoresizingMaskIntoConstraints="NO" id="T0V-Ki-UTI">
+                            <rect key="frame" x="36.666666666666657" y="0.0" width="302" height="154"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="302" id="UmM-Ej-jEB"/>
+                                <constraint firstAttribute="height" constant="154" id="YAO-85-sDL"/>
+                            </constraints>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="wEF-a5-xe8">
+                            <rect key="frame" x="58" y="177" width="259" height="30"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXx-38-G1N">
+                                    <rect key="frame" x="0.0" y="0.0" width="44.666666666666664" height="30"/>
+                                    <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dodge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y83-B4-v6x">
+                                    <rect key="frame" x="51.666666666666671" y="0.0" width="58.333333333333329" height="30"/>
+                                    <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Challenger" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANY-LR-2Gq">
+                                    <rect key="frame" x="117" y="0.0" width="100.33333333333331" height="30"/>
+                                    <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SRT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWu-3b-Dqt">
+                                    <rect key="frame" x="224.33333333333331" y="0.0" width="34.666666666666686" height="30"/>
+                                    <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="8kB-cr-L5e"/>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" id="hFp-Va-ONT">
+                    <rect key="frame" x="0.0" y="0.0" width="302" height="256"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wrangler" translatesAutoresizingMaskIntoConstraints="NO" id="iEF-h1-gvt">
+                            <rect key="frame" x="0.0" y="0.0" width="302" height="206"/>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="3" id="HEv-Yk-ptn">
+                            <rect key="frame" x="0.0" y="226" width="302" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCm-r4-8iZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="52" height="30"/>
+                                    <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jeep" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZhR-U4-Dn3">
+                                    <rect key="frame" x="55" y="0.0" width="51.333333333333343" height="30"/>
+                                    <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wrangler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sd0-no-qOu">
+                                    <rect key="frame" x="109.33333333333331" y="0.0" width="100" height="30"/>
+                                    <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rubicon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6j0-P1-2FQ">
+                                    <rect key="frame" x="212.33333333333334" y="0.0" width="89.666666666666657" height="30"/>
+                                    <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <viewLayoutGuide key="safeArea" id="49K-WL-PyW"/>
+                        </stackView>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="LR6-is-NCJ"/>
+                </stackView>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cool_Cars" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vehicle Trader" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCH-3R-yiu">
+                                <rect key="frame" x="119.66666666666669" y="20" width="175" height="40"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="40"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GrD-Co-BOw">
+                                <rect key="frame" x="180" y="662" width="54" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="TdL-wz-rDg">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="54"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="54" id="hd6-hj-0Qz">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="54"/>
+                                    </constraint>
+                                </constraints>
+                                <state key="normal" image="icons8-next-page-64"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Challenger" translatesAutoresizingMaskIntoConstraints="NO" id="E7P-Xz-gBB">
+                                <rect key="frame" x="87" y="68" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="tU6-gb-kp4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020 Dodge Challenger SRT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Mf-Ab-OQu">
+                                <rect key="frame" x="79.666666666666686" y="204" width="255" height="30"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wrangler" translatesAutoresizingMaskIntoConstraints="NO" id="2y7-Ex-NJR">
+                                <rect key="frame" x="79" y="254" width="256" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="QXm-Hl-bRW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020 Jeep Wrangler Rubicon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTd-uT-0z5">
+                                <rect key="frame" x="73.666666666666686" y="390" width="267" height="30"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OTd-uT-0z5" firstAttribute="top" secondItem="2y7-Ex-NJR" secondAttribute="bottom" constant="8" symbolic="YES" id="0o0-74-U12"/>
+                            <constraint firstItem="E7P-Xz-gBB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="12n-HT-uvM"/>
+                            <constraint firstItem="E7P-Xz-gBB" firstAttribute="top" secondItem="UCH-3R-yiu" secondAttribute="bottom" constant="8" symbolic="YES" id="3W2-Hd-Xq1"/>
+                            <constraint firstItem="2y7-Ex-NJR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9sp-wL-XTx"/>
+                            <constraint firstItem="GrD-Co-BOw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BNO-hU-aKv"/>
+                            <constraint firstItem="2Mf-Ab-OQu" firstAttribute="top" secondItem="E7P-Xz-gBB" secondAttribute="bottom" constant="8" symbolic="YES" id="KKb-KT-gIq"/>
+                            <constraint firstItem="2Mf-Ab-OQu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MWG-UJ-aho"/>
+                            <constraint firstItem="E7P-Xz-gBB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="SmX-cI-Jb0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GrD-Co-BOw" secondAttribute="bottom" constant="20" id="ZE2-C8-6ke"/>
+                            <constraint firstItem="UCH-3R-yiu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="alE-we-41K"/>
+                            <constraint firstItem="2y7-Ex-NJR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="f5m-WO-AYc"/>
+                            <constraint firstItem="UCH-3R-yiu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tBe-Pc-lwy"/>
+                            <constraint firstItem="2y7-Ex-NJR" firstAttribute="top" secondItem="2Mf-Ab-OQu" secondAttribute="bottom" constant="20" id="y8t-aB-ayf"/>
+                            <constraint firstItem="OTd-uT-0z5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zS9-fi-fea"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.23188405797103" y="124.72826086956523"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Challenger" width="625" height="330"/>
+        <image name="Wrangler" width="621" height="422"/>
+        <image name="icons8-next-page-64" width="54" height="54"/>
+    </resources>
 </document>
