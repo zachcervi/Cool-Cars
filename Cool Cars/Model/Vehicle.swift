@@ -13,4 +13,8 @@ struct Vehicle{
     var model: String!
     var subModel: String!
     var year: String!
+    var mpg: String!
+    var msrp: String!
+    var hp: String!
+    var zeroToSixty: String!
 }

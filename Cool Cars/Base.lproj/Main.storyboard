@@ -314,6 +314,14 @@
                         <viewLayoutGuide key="safeArea" id="Wpa-GM-GPp"/>
                     </view>
                     <navigationItem key="navigationItem" id="6g5-3E-3TO"/>
+                    <connections>
+                        <outlet property="hpLbl" destination="YTx-Jh-qHv" id="wwI-CH-Tes"/>
+                        <outlet property="mpgLbl" destination="MKi-yW-fdc" id="Tli-Ig-DaD"/>
+                        <outlet property="msrpLbl" destination="LEs-be-1n7" id="nhi-y9-tNG"/>
+                        <outlet property="vehicleImage" destination="49J-fV-vbP" id="tTh-LD-ixH"/>
+                        <outlet property="vehicleTitleLbl" destination="IVX-ih-yMT" id="v2P-NV-oBy"/>
+                        <outlet property="zeroToSixtyLbl" destination="g4P-3S-Lbs" id="fID-DX-0mU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YhR-Em-iE4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="zaL-oa-3Dm" userLabel="Exit" sceneMemberID="exit"/>
